@@ -326,6 +326,7 @@
 <div>
 
 <?php
+/*
 if($this->System_model->CheckLicenseExistsNoAlert() == 'yes')
 {
     $DontShow = true;
@@ -335,4 +336,5 @@ if(!$DontShow)
 {
     ?><div class="goodAction" style="border: solid 1px #336699; padding: 5px; border-radius: 5px;"><?php echo $this->lang->line('licensewarning'); ?></div><?php
 }
+*/
 ?>

@@ -35,7 +35,7 @@ class System_model extends CI_Model
 
     public function CheckLicenseExists()
     {
-        if(file_exists('phpbluedragon.php'))
+        /*if(file_exists('phpbluedragon.php'))
         {
             //yes
 			//echo 'exists';
@@ -69,11 +69,11 @@ class System_model extends CI_Model
         else
         {
             $ValToReturn = 'no';
-        }
+        }*/
         
         //echo $ValToReturn;
         
-		//$ValToReturn = 'yes';
+		$ValToReturn = 'yes';
 		
         return $ValToReturn;
     }

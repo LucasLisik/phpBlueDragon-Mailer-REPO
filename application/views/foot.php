@@ -32,7 +32,7 @@ foreach($ResultDB->result() as $row)
 <?php
 //echo $ConfigTable['foot']; 
 ?>
-Copyright &copy; 2015-2017<br />
+Copyright &copy; 2015-<?php echo date('Y'); ?><br />
 <a href="http://phpbluedragon.eu" style="color: #827F7F;" target="_blank">phpBlueDragon</a><br />
 <a href="http://en.lukasz.sos.pl" style="color: #827F7F;" target="_blank">Lukas SOS</a>
 </div>
